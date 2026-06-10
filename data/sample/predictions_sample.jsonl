@@ -1,0 +1,2 @@
+{"id": "CVE-SAMPLE-0001", "prediction": "漏洞类型：CWE-79\n严重程度：HIGH\n推理过程：输入未过滤直接写入HTML，可能造成XSS。\n修复建议：进行HTML编码和输入校验。"}
+{"id": "CVE-SAMPLE-0002", "prediction": "漏洞类型：CWE-89\n严重程度：CRITICAL\n推理过程：用户输入拼接进SQL查询，可能导致SQL注入。\n修复建议：使用参数化查询。"}
